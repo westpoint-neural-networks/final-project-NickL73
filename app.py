@@ -31,7 +31,7 @@ PLAY_PROBABILITY.set("100%")
 
 #Add all entry labels and widgets
 okScoreLabel = Label(window, text="Oklahoma Score")
-byScoreLabel = Label(window, text="Baylor Score")
+byScoreLabel = Label(window, text="Opponent Score")
 downLabel = Label(window, text="Down")
 distanceLabel = Label(window, text="Distance")
 quarterLabel = Label(window, text="Quarter")
