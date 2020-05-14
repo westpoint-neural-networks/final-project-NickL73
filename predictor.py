@@ -7,11 +7,11 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow.keras import models
 
 #First, we're going to read in all previous plays in NCAA to get a scale
-df = pd.read_csv('datasets/ncaaAll_binary.csv')
+df = pd.read_csv('datasets/leagueData.csv')
 
 #Next, we'll vectorize it, scale it, and transform it
-X = df.iloc[:,1:9]
-y = df.iloc[:,9]
+X = df.iloc[:,0:8]
+y = df.iloc[:,8]
 X = X.replace({True:1, False:0})
 y = y.replace({'Rush':0, 'Pass':1})
 y = to_categorical(y)
