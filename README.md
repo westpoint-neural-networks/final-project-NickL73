@@ -10,15 +10,18 @@ This application uses data scraped from [collegefootballdata.com](collegefootbal
 To run this application, you will need to have several Python modules loaded into your environment. If you do not already have it, you will need to [install pip](https://pip.pypa.io/en/stable/installing/) first to actually install the rest of the dependencies.
 
 To install all of the dependencies, navigate to the project folder in a command prompt. At this point, I recommend making a new virtual Python environment, but it is not required. Next, type the following command:
+
 `$ pip install -r requirements.txt`
 
  After executing this command, your Python environment should be able to execute the application.
- **NOTE: If you do not create a new virtual environment, some of the versions installed from the requirements.txt file may replace other versions you might have and cause conflicts in other projects using. To ensure you don't break other projects, consider [creating](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) a new virtual environment.** 
+ 
+ **NOTE: If you do not create a new virtual environment, some of the versions installed from the requirements.txt file may replace other versions you might have and cause conflicts in other projects. To ensure you don't break other projects, consider [creating](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) a new virtual environment.** 
 
 ## Launching the Application
 Once all required dependencies have been installed, you can use the application. To launch the application, open a command prompt and navigate to the application's directory. If you're using a virtual environment, be sure to activate it at this point.
 
 In the command prompt, type the following command to launch to the application:
+
 `$ python app.py`
 
 ## Using the Application
